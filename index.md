@@ -2,5 +2,5 @@
 layout: default
 ---
 
-Our team creates awesome Web apps, Android Apps and provide Machine learning solutions.
+Our team creates awesome Web apps, Android Apps and Machine learning solutions.
 
