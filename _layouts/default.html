@@ -18,7 +18,7 @@
   <div class="wrapper">
     <header>
       <h1 style="text-align:center;"><a
-          href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }} Studio</a></h1>
+          href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
       {% if site.logo %}
       <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -50,7 +50,7 @@
     </section>
     <footer>
       <p style="text-align: center;">Apps & Games</p>
-      <p style="text-align: center;"><small>VistaCodeLab &copy; 2021</small></p>
+      <p style="text-align: center;"><small>VistaCodeLab &copy; {{ 'now' | date: "%Y" }}</small></p>
     </footer>
   </div>
   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
