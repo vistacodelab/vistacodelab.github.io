@@ -180,6 +180,11 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.primary }};
 }
 
+.navbar-default .logo-img {
+    height: 50px;
+    margin-top: -6px;margin-right: 10px;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -262,6 +267,11 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+
+    .navbar-default.navbar-shrink .logo-img{
+        height: 46px;
+        
     }
 }
 
