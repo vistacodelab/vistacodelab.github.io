@@ -2,7 +2,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">&copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                    <span class="copyright">&copy; {{ site.title }} <span id="copyright-year">
+                        <script>document.getElementById('copyright-year').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                    </span></span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
