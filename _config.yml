@@ -1,9 +1,9 @@
-url: http://vistacodelab.com/
+url: https://vistacodelab.com/
 
 
 # Site settings
 title: VistaCodeLab
-email: biz@vistacodelab.com
+email: hello@vistacodelab.com
 description: "We create Web Apps, Android Apps, React Native Apps, Games, Machine learning solutions and much more."
 
 
@@ -27,6 +27,8 @@ social:
     url: https://github.com/vistacodelab
   - title: youtube-play
     url: https://www.youtube.com/channel/UC6MwW0pOqJ3oxmNRzVmgaIA
+  - title: linkedin
+    url: https://www.linkedin.com/company/vistacodelab/
 
 # Postal address (add as many lines as necessary)
 address:
