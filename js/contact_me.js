@@ -59,8 +59,13 @@ $(function() {
             $.ajax({
             // url is what you get from activating the "Incoming WebHooks" slack integration
             // if you leave, you should see an error message "No Team", status 404
-            url: 'https://hooks.slack.com/services/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',
+            url: 'https://slack.com/api/chat.postMessage',
             type: 'POST',
+            dataType: 'json',
+            headers: {
+                'Authorization': 'Bearer xoxb-2079835886755-5107661700245-nijs4Iw6S2ojCXAorUckNcjZ',
+            },
+            contentType: 'application/json; charset=utf-8',
             processData: true,
             data : sdata ,
             success : function(data) {
@@ -92,9 +97,9 @@ $('#name').focus(function() {
     $('#success').html('');
 });
 
-function formatForSlack(msg, chan){
+function formatForSlack(msg){
     var payload ={
-      "channel":chan,
+      "channel":'C052G4UM708',
       "username":'incoming-webhook',
       "text": msg,
       "icon_emoji":':ghost:'
