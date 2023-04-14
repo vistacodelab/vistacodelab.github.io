@@ -59,7 +59,7 @@ $(function() {
             $.ajax({
             // url is what you get from activating the "Incoming WebHooks" slack integration
             // if you leave, you should see an error message "No Team", status 404
-            url: 'https://hooks.slack.com/services/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',
+            url: 'https://hooks.slack.com/services/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',
             type: 'POST',
             processData: true,
             data : sdata ,
