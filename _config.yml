@@ -30,7 +30,7 @@ social:
   - title: linkedin
     url: https://www.linkedin.com/company/vistacodelab/
   - title: whatsapp
-    url: https://web.whatsapp.com/send/?phone=916238461562
+    url: https://api.whatsapp.com/send?phone=916238461562
 
 # Postal address (add as many lines as necessary)
 address:
