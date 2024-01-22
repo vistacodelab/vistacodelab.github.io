@@ -126,7 +126,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: #2b2b2b;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -136,7 +136,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
+    color: #2c2e3e;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
